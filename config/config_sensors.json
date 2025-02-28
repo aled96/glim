@@ -49,18 +49,18 @@
     // LiDAR config
     "global_shutter_lidar": false,
     "T_lidar_imu": [
-      0.006,
-      -0.012,
-      0.008,
+      0.0,
+      0.0,
+      0.0,
       0.0,
       0.0,
       0.0,
       1.0
     ],
     // LiDAR per-point time settings
-    "autoconf_perpoint_times": true,
-    "autoconf_prefer_frame_time": false,
-    "perpoint_relative_time": true,
+    "autoconf_perpoint_times": false,
+    "autoconf_prefer_frame_time": true,
+    "perpoint_relative_time": false,
     "perpoint_time_scale": 1.0,
     // Camera config (required for only extension modules)
     "global_shutter_camera": true,
@@ -69,13 +69,13 @@
       480
     ],
     "T_lidar_camera": [
-      -0.00320,
-      -0.05292,
-      0.00108,
-      0.00837,
-      0.72559,
-      -0.00328,
-      0.68807
+      -0.373,
+      0.214,
+      -0.156,
+      0.000,
+      0.000,
+      -0.258,
+      0.966
     ],
     "intrinsics": [
       815.498895336274,
